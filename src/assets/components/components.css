@@ -1,0 +1,572 @@
+/* Header *//* Header *//* Header */
+.header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #b8c9e9, #2a5298);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de usuario */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #f8d210;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Contenedor del nav y el botón */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto; /* Empuja el contenedor a la derecha */
+}
+
+/* Estilo de los enlaces de navegación */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f8dd82;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Botón de logout */
+.logout-btn {
+  background: #ff4b5c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #d43f4b;
+}
+
+/* Hero *//* Hero *//* Hero */
+
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #2a5298, #b8c9e9);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto del Hero */
+.user-greeting h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.user-greeting h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f8d210;
+}
+
+/* Línea divisoria */
+.banner hr {
+  border: none;
+  height: 2px;
+  background: #f8d210;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Barra de búsqueda */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search-container input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search-container button {
+  background: #f8d210;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.search-container button:hover {
+  background: #ffcc00;
+}
+
+
+/* CardCarousel *//* CardCarousel *//* CardCarousel */
+
+.card-carousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #b8c9e9, #2a5298);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: #f8d210;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Contenedor principal del carrusel */
+.carousel-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Contenedor de las tarjetas */
+.card-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  background: white;
+  color: #333;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 15px;
+  height: 300px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen circular dentro de la tarjeta */
+.circular-image {
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #f8d210;
+}
+
+/* Estilos de los botones de navegación */
+.button-card {
+  background: #f8d210;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.button-card:hover {
+  background: #ffcc00;
+}
+
+
+/* Feature *//* Feature *//* Feature */
+
+.feature-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #b8c9e9, #2a5298);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Mostrar 3 elementos por defecto */
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+/* Cada ítem del grid */
+.grid-item {
+  width: 80%; /* Hacer que los items ocupen todo el ancho disponible */
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen de avatar */
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #f8d210;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+/* Contenedor del texto */
+.text-content {
+  flex: 1;
+  text-align: left;
+}
+
+/* Título */
+.text-content h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #1e3c72;
+}
+
+/* Descripción */
+.text-content p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+
+/* Testimonial *//* Testimonial *//* Testimonial */
+
+.testimonials-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #b8c9e9, #2a5298);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del comentario */
+.testimonial-comment {
+  margin-bottom: 30px;
+}
+
+.testimonial-comment p {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  word-wrap: break-word; /* Para ajustar las palabras largas */
+  overflow-wrap: break-word; /* Asegura que las palabras largas no desborden */
+}
+
+.testimonial-comment h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #f8d210;
+}
+
+/* Contenedor del carrusel */
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.carousel-item {
+  cursor: pointer;
+}
+
+.carousel-item:hover .circular-image-testimonials {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+/* Imagen circular */
+.circular-image-testimonials {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #f8d210;
+  object-fit: cover;
+}
+
+
+
+
+/* Footer *//* Footer *//* Footer */
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #b8c9e9, #2a5298);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Línea superior */
+.footer-container hr {
+  border: 0;
+  height: 2px;
+  background-color: #f8d210;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de enlaces sociales */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.social-icon {
+  font-size: 1.8em;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #f8d210;
+}
+
+/* Información de contacto */
+.footer-contact {
+  margin-top: 20px;
+  font-size: 1.2em;
+  word-wrap: break-word; /* Para ajustar las palabras largas */
+  overflow-wrap: break-word; /* Asegura que las palabras largas no desborden */
+}
+
+.footer-contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: #f8d210;
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center; /* Centra los elementos en pantallas pequeñas */
+    padding: 15px 20px;
+  }
+
+  .user-info {
+    margin-bottom: 10px;
+    text-align: center; /* Centra el contenido del usuario */
+  }
+
+  .nav-container {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Alineación central de los enlaces */
+  }
+
+  .nav-links a {
+    text-align: center;
+  }
+
+  .logout-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .user-greeting h1 {
+    font-size: 2rem;
+  }
+
+  .user-greeting h2 {
+    font-size: 1.5rem;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: center; /* Centra la barra de búsqueda */
+    width: 100%;
+  }
+
+  .search-container input {
+    width: 80%;
+  }
+
+  .search-container button {
+    width: 50%;
+  }
+
+  .card-carousel {
+    padding: 30px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card {
+    width: 90%; /* Hace que las tarjetas sean más anchas en pantallas pequeñas */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+
+  .circular-image {
+    width: 160px;  /* Reduce el tamaño de la imagen para pantallas pequeñas */
+    height: 160px; /* Ajusta la altura también */
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* Mostrar solo 3 elementos en pantallas pequeñas */
+    gap: 15px; /* Reducir espacio entre los items */
+    padding: 20px;
+  }
+
+  .grid-item {
+    width: 100%; /* Los items ocuparán el 100% del espacio disponible */
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .avatar {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .text-content {
+    text-align: center;
+  }
+
+  .testimonial-container {
+    padding: 20px;
+  }
+
+  .testimonial-comment p {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-carousel {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .carousel-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .circular-image-testimonials {
+    width: 70px;
+    height: 70px;
+  }
+
+  .footer-container {
+    padding: 20px;
+  }
+
+  .footer-social {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 1.5em;
+  }
+
+  .footer-contact {
+    font-size: 1em;
+  }
+  
+}

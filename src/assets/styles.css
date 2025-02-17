@@ -1,0 +1,24 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #d7e4f3, #8299ac);
+  background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+  background-position: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
