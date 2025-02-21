@@ -226,6 +226,13 @@ hr {
   background: #ffcc00;
 }
 
+.button-card:disabled {
+  background-color: #b0b0b0; /* Color grisáceo */
+  cursor: not-allowed;
+  transform: none;
+  opacity: 0.6; /* Hace que se vea más tenue */
+}
+
 
 /* Feature *//* Feature *//* Feature */
 

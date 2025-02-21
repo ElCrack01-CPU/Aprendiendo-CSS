@@ -1,4 +1,4 @@
-import {React} from 'react';
+import React from 'react';
 import './components.css';
 
 export const Hero = ({ username }) => {

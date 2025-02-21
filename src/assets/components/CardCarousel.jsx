@@ -10,6 +10,9 @@ export const CardCarousel = () => {
 
   const visibleCards = 3; // Número de tarjetas visibles a la vez
 
+  const isPrevDisabled = currentPage === 1;
+  const isNextDisabled = currentPage * limit >= cards.length;
+
   // Cambiar al índice anterior
   const handlePrevClick = () => {
     if (currentPage > 1) {
@@ -39,15 +42,15 @@ export const CardCarousel = () => {
       <hr />
       <div className="carousel-content">
         <div className="card-container">
-          <button className='button-card' onClick={handlePrevClick}><i className="fa fa-arrow-left" /></button>
+          <button className='button-card' onClick={handlePrevClick} disabled={isPrevDisabled}><i className="fa fa-arrow-left" /></button>
           {getVisibleCards().map((card) => (
             <div key={card.id} className="card">
               <img src={card.image} alt={card.title} className="circular-image" />
               <p>{card.title}</p>
             </div>
           ))}
-          {getVisibleCards().length === 0 && <p className='text-center' >No hay más productos disponibles.</p>}
-          <button className='button-card' onClick={handleNextClick}><i className="fa fa-arrow-right" /></button>
+          
+          <button className='button-card' onClick={handleNextClick} disabled={isNextDisabled}><i className="fa fa-arrow-right" /></button>
         </div>
       </div>
     </div>
