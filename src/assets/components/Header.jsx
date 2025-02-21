@@ -1,7 +1,6 @@
-import React from 'react';
 import './components.css'; // Importamos los estilos CSS
 
-export const Header = ({ userName }) => {
+export const Header = (userName) => {
   return (
     <header className="header">
       <div className="user-info">

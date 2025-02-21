@@ -1,4 +1,3 @@
-import React from 'react';
 import './components.css'; // Asegúrate de tener el archivo CSS vinculado
 
 export const Footer = () => {

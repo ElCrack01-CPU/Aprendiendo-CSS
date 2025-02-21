@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useFetch } from '../hooks/useFetch'; // Asegúrate de importar el custom hook
 import { fetchProducts } from '../services/GetProductsApi';
 import './components.css';
