@@ -1,6 +1,6 @@
 import './components.css';
 
-export const Hero = ( username ) => {
+export const Hero = ( {username} ) => {
     return (
         <div className="banner">
             <div className="user-greeting">
